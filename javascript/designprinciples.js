@@ -1,7 +1,7 @@
-let date = new Date();
-let year = date.getFullYear();
+let date1 = new Date();
+let year1 = date1.getFullYear();
 
-document.getElementById('year1').innerHTML = year;
+document.getElementById('year1').innerHTML = year1;
 
-let oLastModif = new Date(document.lastModified).toLocaleString();
-document.getElementById('lastmod1').innerHTML = oLastModif;
+let oLastModif1 = new Date(document.lastModified).toLocaleString();
+document.getElementById('lastmod1').innerHTML = oLastModif1;
